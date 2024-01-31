@@ -99,7 +99,7 @@ $items = [
     new Item("Kamera", 2, 500),
     new Item("Ramen", 1, 100),
     new Item("Kniha", 2, 300),
-    new Item("Penize", 1, 100),
+    new Item("Penize", 1, 200),
 ];
 
 foreach ($items as $item) {
@@ -121,7 +121,7 @@ $itemsDC = [
     new Item("Kamera", 2, 500),
     new Item("Ramen", 1, 100),
     new Item("Kniha", 2, 300),
-    new Item("Penize", 1, 100),
+    new Item("Penize", 1, 200),
 ];
 
 $totalValueDC = $backpackDC->fillBackpackDvdCqr($itemsDC, 15);
